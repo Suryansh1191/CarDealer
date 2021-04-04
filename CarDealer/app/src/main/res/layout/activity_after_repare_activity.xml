@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".After_repare_activity">
+
+    <ImageView
+        android:id="@+id/QR_rep"
+        android:layout_width="286dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/border" />
+
+    <Button
+        android:id="@+id/home_rep"
+        android:layout_width="123dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="Done!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Our car mechanic will at your address in 24 houres . You will recive a conformation call. Scanne this QR code when all your problem is solved for closing Request. "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/call_rep"
+        android:layout_width="123dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="Contect us"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="147dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Done!"
+        android:textSize="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QR_rep" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

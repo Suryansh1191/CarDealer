@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell_yout_car_activity"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview_form"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/border"
+
+                app:lottie_rawRes="@raw/carcontrol"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <TextView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="INCLUDE DETAILS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Car Model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/Car_model_rep"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Car Model"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Your Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/your_name_rep"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter your Name"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Contect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/contect_rep_f"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:inputType="number"
+                android:hint="Enter Contact Number"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/Address_rep"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Your Address"
+                android:inputType="number"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border"
+                    android:id="@+id/Other_Spinner_rep"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Repare Describe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/car_problem_rep"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Problem"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Date For repare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/date_rep"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:text="Date"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+
+
+            <Button
+                android:background="@drawable/rectangle_aktif"
+                android:textColor="#FFF"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="false"
+                android:text="Continue"
+                android:id="@+id/contiu_rep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/liner_layout_Qr"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/border"
+            android:id="@+id/qr_view"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="75dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qr_view"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:layout_marginLeft="0dp"
+            android:gravity="center"
+            android:text="Your request is Successfully recivied our exicutive will there at your address within 24 hours Scane this barcode when all your problems is solved. Thank You "
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/home_rep_aft"
+            android:layout_marginLeft="30dp"/>
+
+            <Button
+                android:id="@+id/contect_rep_aftttt"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="Contect Us" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_car_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="INCLUDE DETAILS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Car Brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/Car_brand"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Car Brand"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Car Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/car_name"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Car Name"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/year_car"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:inputType="number"
+                android:hint="Enter Year of Pruches"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="KM Driven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/km_driven"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter KM Driven"
+                android:inputType="number"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Fuel and Transmission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border"
+                    android:id="@+id/fuel_Spinner"/>
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/border"
+                    android:id="@+id/Transmition_Spinner"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Car description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/discribtion_car"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter full description"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Phone number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/phone_no."
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Phone Number"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Asking Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/price_car"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter price"
+                android:inputType="number"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Upload Image of your car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="Upload IMG"
+                    android:id="@+id/upload_img_sell"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image_view"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:background="@drawable/rectangle_aktif"
+                android:textColor="#FFF"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="false"
+                android:text="Continue"
+                android:id="@+id/contiu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

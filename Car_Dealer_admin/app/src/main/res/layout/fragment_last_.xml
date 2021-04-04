@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border"
+    tools:context=".Last_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/image_holder_last"
+        android:layout_width="329dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="76dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:text="Model :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/model_last"
+            android:layout_width="76dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:text="Model :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no2"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="60dp"
+            android:text="Company :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/Brand_last"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="60dp"
+            android:text="Company :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.664"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no3"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="100dp"
+            android:text="Year :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/year_last"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="100dp"
+            android:text="Year :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.664"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no4"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="140dp"
+            android:text="KM :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/KM_last"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="140dp"
+            android:text="KM :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.664"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no5"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="176dp"
+            android:text="Fuel :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/Fuel_last"
+            android:layout_width="98dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="176dp"
+            android:text="Fuel :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.664"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no6"
+            android:layout_width="113dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="216dp"
+            android:text="Transmition :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/Transmition_last"
+            android:layout_width="113dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="216dp"
+            android:text="Transmition :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.697"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/no7"
+            android:layout_width="113dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="256dp"
+            android:text="Description :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <TextView
+            android:id="@+id/Description_last"
+            android:layout_width="170dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="256dp"
+            android:text="Description :-"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_holder_last" />
+
+        <Button
+            android:id="@+id/call_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginBottom="20dp"
+            android:text="CaLL customer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Description_last"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

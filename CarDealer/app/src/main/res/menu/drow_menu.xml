@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us"/>
+        <item android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call"
+            android:title="Call"/>
+        <item android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Map"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+          <item android:title="Share"
+              android:id="@+id/nav_share"
+              android:icon="@drawable/ic_share"/>
+          <item android:title="Send"
+              android:id="@+id/nev_share"
+              android:icon="@drawable/ic_send"/>
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cardealer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarDealer">
+        <activity android:name=".register_activity"></activity>
+        <activity android:name=".log_in" />
+        <activity
+            android:name=".After_repare_activity"
+            android:label="@string/title_activity_after_repare_activity"
+            android:theme="@style/Theme.CarDealer.NoActionBar" />
+        <activity android:name=".repare_car_activity" />
+        <activity android:name=".After_form_Activity" />
+        <activity android:name=".sell_yout_car_activity" />
+        <activity android:name=".Car_for_sale_Activity" />
+        <activity android:name=".splashScreen_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
