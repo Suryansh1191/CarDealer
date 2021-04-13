@@ -30,10 +30,7 @@ After loging in User is presented with a dashboard which conatins tabs:
 ![Screenshot_2021-04-04-21-41-49-135_com example cardealer](https://user-images.githubusercontent.com/69685349/114522677-3632ed00-9c61-11eb-93b1-1975386945c8.jpg)
 
 
-Car For Sell - Screenshot
 
-![Screenshot_2021-04-04-22-12-30-806_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522704-3af7a100-9c61-11eb-951a-ccbfa01b8236.jpg)
-![Screenshot_2021-04-04-22-01-59-483_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522700-39c67400-9c61-11eb-861b-789b02a1b653.png)
 
 
 Sell Your Car - Screenshot
@@ -42,6 +39,15 @@ Sell Your Car - Screenshot
 ![Screenshot_2021-04-04-21-50-44-828_com example cardealer](https://user-images.githubusercontent.com/69685349/114522698-39c67400-9c61-11eb-854d-a2d909ee066c.jpg)
 ![Screenshot_2021-04-04-21-47-03-255_com example cardealer](https://user-images.githubusercontent.com/69685349/114522693-38954700-9c61-11eb-9ec6-6a6d07d93acc.jpg)
 ![Screenshot_2021-04-04-21-47-09-757_com example cardealer](https://user-images.githubusercontent.com/69685349/114522697-392ddd80-9c61-11eb-92d3-bd210d95c3e2.jpg)
+
+
+
+Car For Sell - Screenshot
+
+![Screenshot_2021-04-04-22-12-30-806_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522704-3af7a100-9c61-11eb-951a-ccbfa01b8236.jpg)
+![Screenshot_2021-04-04-22-01-59-483_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522700-39c67400-9c61-11eb-861b-789b02a1b653.png)
+
+
 
 
 
