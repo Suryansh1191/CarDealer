@@ -9,6 +9,15 @@ Bisen Dealer lets a user:
 3. Servie Your **car through just a button**
 4. Review all Your **Previous Booking*
 
+
+
+## Technologies that are used for making it
+- Android Studio: For developing Our Application
+- zxing core, budiyev (libraries)
+- Firebase: For backend services like Authentication
+- Adobe xD: For user experience and Prototyping.
+
+
 ## Main Logo
 
 ![bisen](https://user-images.githubusercontent.com/69685349/114526273-76479f00-9c64-11eb-9dd7-137401ad8e54.png)
@@ -22,7 +31,7 @@ With this app User Can list his car for sell, Buy car From the dealer,
 and request for service and repare.
 
 ### About User app
-After loging in User is presented with a dashboard which conatins tabs:
+After loging in User app is presented with a dashboard which conatins tabs:
 - Car For Sell
 - Sell Your Car
 - Repare Your Car
@@ -33,7 +42,7 @@ After loging in User is presented with a dashboard which conatins tabs:
 
 
 
-Sell Your Car - Screenshot
+#### Sell Your Car - Screenshot
 
 ![Screenshot_2021-04-04-21-42-01-190_com example cardealer](https://user-images.githubusercontent.com/69685349/114522690-38954700-9c61-11eb-909e-68c86de08871.png)
 ![Screenshot_2021-04-04-21-50-44-828_com example cardealer](https://user-images.githubusercontent.com/69685349/114522698-39c67400-9c61-11eb-854d-a2d909ee066c.jpg)
@@ -42,13 +51,44 @@ Sell Your Car - Screenshot
 
 
 
-Car For Sell - Screenshot
+#### Car For Sell - Screenshot
 
 ![Screenshot_2021-04-04-22-12-30-806_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522704-3af7a100-9c61-11eb-951a-ccbfa01b8236.jpg)
 ![Screenshot_2021-04-04-22-01-59-483_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522700-39c67400-9c61-11eb-861b-789b02a1b653.png)
 
 
 
+#### Repare Car - Screenshot
+
+
+![Screenshot_2021-04-04-22-07-26-012_com example cardealer](https://user-images.githubusercontent.com/69685349/114522702-3a5f0a80-9c61-11eb-981a-2918b0c863e7.jpg)
+
+
+
+![Screenshot_2021-04-04-21-42-01-190_com example cardealer](https://user-images.githubusercontent.com/69685349/114522690-38954700-9c61-11eb-909e-68c86de08871.png)
+
+After filling the form You fill get the QR code, 
+This QR code will be scanned By the admin app after repareing the car to close the repare request for better service.
+screenshot
+
+
+![Screenshot_2021-04-04-22-07-26-012_com example cardealer](https://user-images.githubusercontent.com/69685349/114522702-3a5f0a80-9c61-11eb-981a-2918b0c863e7.jpg)
+
+
+## Admin App
+With this app User Can list his car for sell, Buy car From the dealer,
+and request for service and repare.
+
+### About Admin app
+After loging in the app Admin can:
+- Add Car
+- Listed Car by user
+- See all Repare request
+- Delete Listed Car
+
+Screenshot
+![Screenshot_2021-04-04-22-12-30-806_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522704-3af7a100-9c61-11eb-951a-ccbfa01b8236.jpg)
+![Screenshot_2021-04-04-22-01-59-483_com example car_dealer_admin](https://user-images.githubusercontent.com/69685349/114522700-39c67400-9c61-11eb-861b-789b02a1b653.png)
 
 
 
